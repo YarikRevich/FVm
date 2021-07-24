@@ -3,7 +3,7 @@ name: Tests-Check
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   test:
     runs-on: ubuntu-latest

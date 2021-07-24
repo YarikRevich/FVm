@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"github.com/YarikRevich/FVm/internal/core/procedure"
+)
 
 func main(){
-	fmt.Println("It is the fastest vm")	
+	inst := procedure.New()
+	inst.Run()
 }
